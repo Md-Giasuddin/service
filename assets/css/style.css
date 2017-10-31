@@ -1,0 +1,86 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.full-section{
+    padding: 80px 0;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2{
+    position: relative;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.section-title h2:before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 0;
+    background: #fedb77;
+    height: 5px;
+    width: 60px;
+    transform: translatex(-50%);
+}
+.section-title h2:after{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 20px;
+    background: #ff7874;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.singel-service-icon{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-icon-container{
+    display: table;
+    width: 100%;
+    height: 120px;
+}
+
+.service-img{
+    display: table-cell;
+    vertical-align: middle;
+}
